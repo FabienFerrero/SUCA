@@ -12,6 +12,7 @@ This board was developed for education to support courses on embedded software, 
 - Accelerometer sensor : KXTJ3-1057
 - Temp/Humidity sensor : SHTC3
 - Light sensor : LTR-303A
+- GNSS receiver : LC76D
 - Optimized sleep mode to 5uA
 
 The board is fabricated by RFThings.
