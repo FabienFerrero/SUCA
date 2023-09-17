@@ -17,7 +17,7 @@ This board was developed for education to support courses on embedded software, 
 
 The board is fabricated by RFThings.
 
-<img src="https://github.com/FabienFerrero/UCA21/blob/18ce02a330d579ff79cec318990150716ca1bb1d/Doc/Pictures/board.png">
+<img src="https://github.com/FabienFerrero/SUCA/blob/Document/ic/bot.png">
 
 # Wiring
 
