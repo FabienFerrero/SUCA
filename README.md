@@ -1,4 +1,4 @@
-# SUCA
+#SUCA
 Space Université Côte d'Azur Board for Education
 
 Version 0.1, September, 2023
@@ -6,8 +6,11 @@ Version 0.1, September, 2023
 Author: Fabien Ferrero, Manh Thao Nguyen, Trinh Le Huy, Xuan Minh
 
 This board was developed for education to support courses on embedded software, digital and analog electronic, telecommunication, signal processing and IoT.
+The terminal is based on a ESP32-C3 as a main MCU for user code. The ESP32-C3 is using [AT-COMMAND](#AT-COMMAND) to control a RAK3172 module.
+The RAK3172 integrate a LoRaWAN transciever and is also connected to a GNSS module and different sensors.
+The different features can be accessed using AT-COMMAND. 
 
-# What's new
+#What's new
 - Lithium battery charger + JST-PH 2pin connector : MCP73831
 - Accelerometer sensor : KXTJ3-1057
 - Temp/Humidity sensor : SHTC3
@@ -19,7 +22,7 @@ The board is fabricated by RFThings.
 
 <img src="https://github.com/FabienFerrero/SUCA/blob/main/Document/pic/bot.jpg">
 
-# Wiring
+#Wiring
 
 <img src="https://github.com/FabienFerrero/SUCA/blob/main/Document/pic/bloc.jpg">
 
@@ -37,7 +40,7 @@ The board is fabricated by RFThings.
  <img src="https://github.com/FabienFerrero/SUCA/blob/main/Document/pic/top.jpg">
  
  
-# USB Driver
+#USB Driver
 The board is using ESP32-C3 MCU for USB. You may need to install the driver to use the board:
 https://sparks.gogo.co.nz/ch340.html
 
@@ -46,7 +49,7 @@ https://sparks.gogo.co.nz/ch340.html
 
 
 
-# Board Programming - Board Manager
+#Board Programming - Board Manager
 
  1. [Download and install the Arduino IDE](https://www.arduino.cc/en/Main/Software) (at least version v1.6.8)
  2. Start the Arduino IDE
@@ -62,13 +65,25 @@ https://sparks.gogo.co.nz/ch340.html
  6. Select Board version "3.9 and newer : AT328PB" from the Tools -> Board menu
  7. Select the port
 
-# Schematic
+#Schematic
 
 The schematic of the PCB is available in the Schematic section.
 [RF210-C3](https://github.com/FabienFerrero/SUCA/blob/main/Schematic/RF210-C3.pdf)
 
 
-# License
+#AT-COMMAND
+
+The LORA-WAN AT-COMMAND are based on the RUI3 platform provided by RAK : [RUI3 AT-COMMAND][https://docs.rakwireless.com/RUI3/Serial-Operating-Modes/AT-Command-Manual/#content]
+
+Additional custom AT-COMMAND are provided to access to the specific feature of SUCA board.
+
+
+#RAK3172 FIRMWARE UPDATE
+
+The RAK3172 module must be updated to support the latest features.
+The process for update can be found on this link : [RF210 RAK3172 firmware](https://github.com/XuanMinh201/RF210/tree/main)
+
+#License
 
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
