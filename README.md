@@ -75,7 +75,7 @@ The schematic of the PCB is available in the Schematic section.
 
 The LORA-WAN AT-COMMAND are based on the RUI3 platform provided by RAK : [RUI3 AT-COMMAND](https://docs.rakwireless.com/RUI3/Serial-Operating-Modes/AT-Command-Manual/#content)
 
-Additional custom AT-COMMAND are provided to access to the specific feature of SUCA board.
+Additional custom AT-COMMAND are provided to access to the specific feature of SUCA board. [ATC-COMMAND DOCUMENTATION](https://github.com/FabienFerrero/SUCA/blob/main/ATC_command.md)
 
 
 # RAK3172 FIRMWARE UPDATE
