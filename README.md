@@ -22,6 +22,8 @@ The board is fabricated by RFThings.
 # Wiring
 
 <img src="https://github.com/FabienFerrero/SUCA/blob/main/Document/pic/bloc.jpg">
+
+
 ```
  ESP32-C3(BLE)     RAK3172 (LoRa)          LC76D (GNSS)
                    Module
