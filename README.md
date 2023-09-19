@@ -64,7 +64,8 @@ https://sparks.gogo.co.nz/ch340.html
 
 # Schematic
 
-The schematic of the PCB is available the Schematic section.
+The schematic of the PCB is available in the Schematic section.
+[RF210-C3] (https://github.com/FabienFerrero/SUCA/blob/main/Schematic/RF210-C3.pdf)
 
 
 # License
