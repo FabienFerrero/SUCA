@@ -21,21 +21,17 @@ The board is fabricated by RFThings.
 
 # Wiring
 
+<img src="https://github.com/FabienFerrero/SUCA/blob/main/Document/pic/bloc.jpg">
+
+
 ```
  ESP32-C3(BLE)     RAK3172 (LoRa)          LC76D (GNSS)
                    Module
  Rx1 (GPIOX) <----> Tx (GPIOX)          
  Tx1 (GPIOX) <----> Rx (GPIOX)          
  MOSI  (D11) <----> MOSI          <---->
- SCK   (D13) <----> CLK
- SS    (D10) <----> SEL (Chip Select)
- D6          <----> DIO0
- D6          <----> DIO1
- D6          <----> DIO2
  3.3V        <----> Vcc
  
-
-
  ```
  
  <img src="https://github.com/FabienFerrero/SUCA/blob/main/Document/pic/top.jpg">
@@ -68,7 +64,8 @@ https://sparks.gogo.co.nz/ch340.html
 
 # Schematic
 
-The schematic of the PCB is available the Schematic section.
+The schematic of the PCB is available in the Schematic section.
+[RF210-C3](https://github.com/FabienFerrero/SUCA/blob/main/Schematic/RF210-C3.pdf)
 
 
 # License
