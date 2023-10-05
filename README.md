@@ -56,13 +56,13 @@ https://sparks.gogo.co.nz/ch340.html
  3. Go into Preferences
   Add 
  ```
- https://rfthings.github.io/ArduinoBoardManagerJSON/package_rfthings-avr_index.json
+https://rfthings.github.io/ArduinoBoardManagerJSON/package_rfthings-esp32_index.json
  ```
  as an "Additional Board Manager URL"
  
- 4. Open the Boards Manager from the Tools -> Board menu and install "RFTHings AVR Boards by RFThings Vietnam"
+ 4. Open the Boards Manager from the Tools -> Board menu and install "RFTHings ESP32 Boards"
  5. Select your RFTHings UCA board from the Tools -> Board menu
- 6. Select Board version "3.9 and newer : AT328PB" from the Tools -> Board menu
+ 6. Select Board "RF210" from the Tools -> Board menu
  7. Select the port
 
 # Schematic
