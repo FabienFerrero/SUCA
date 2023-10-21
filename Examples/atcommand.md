@@ -13,7 +13,7 @@ In these examples, the ATC (custom AT-COMMAND) are shown
 1. Activate the SHT sensor, type :
 
             
-            ATC+SHT
+    ATC+SHT
             
 It returns : 
 
@@ -23,7 +23,7 @@ It returns :
 2. Check temperature, type :
 
             
-            ATC+TEMP=?
+    ATC+TEMP=?
             
 It returns a result in Celsius degree: 
 
@@ -33,7 +33,7 @@ It returns a result in Celsius degree:
 3. Check Humidity, type :
 
             
-            ATC+HUM=?
+    ATC+HUM=?
             
 It returns a result in percent of humidity :
 
@@ -45,7 +45,7 @@ It returns a result in percent of humidity :
 1. Activate the KX023 sensor, type :
 
 
-            ATC+KX023
+    ATC+KX023
 
 It returns : 
 
@@ -55,7 +55,7 @@ It returns :
 2. Check the accelerometer value on x-axis, type :
 
 
-             ATC+AX=?
+    ATC+AX=?
  
 It returns the result in G unit : 
 
@@ -65,7 +65,7 @@ It returns the result in G unit :
 3. Check the accelerometer value on y-axis, type :
 
  
-            ATC+AY=?
+    ATC+AY=?
  
 It returns the result in G unit : 
 
@@ -75,7 +75,7 @@ It returns the result in G unit :
 4. Check the accelerometer value on z-axis, type :
 
 
-            ATC+AZ=?
+    ATC+AZ=?
 
 It returns the result in G unit : 
 
@@ -85,71 +85,73 @@ It returns the result in G unit :
 # L76F GNSS sensor
 
 1. GNSS experiment needs to be run with a clear view on the sky to capture signal from GPS, Galileo or Beidu Satellite.
-   The GNSS module will need up to 1 minute to obtain a position. If LED D1 (close to L76F) is blinking, the module get a fix. 
+   
 
 2. Activate the GNSS LDO, it power-on the L76F module, type :
 
 
-            ATC+GPSON=1
+    ATC+GPSON=1
 
 It returns : 
 
     OK
 
-3. Read the GPS value, type
+3. The GNSS module will need up to 1 minute to obtain a position. If LED D1 (close to L76F) is blinking, the module get a fix.
+   
+4. Read the GPS value, type
 
 
-            ATC+GPS
+    ATC+GPS
 
 It returns : 
 
     ATC+GPS=1
     OK
     
-4. Read the number of satellites in view, type : 
+5. Read the number of satellites in view, type : 
 
 
-            ATC+GPSSAT=?
+    ATC+GPSSAT=?
 
 It returns the number of satellites available : 
 
     ATC+GPSSAT=x
     OK
 
-5. Read the latitude, type : 
+6. Read the latitude, type : 
 
 
-            ATC+GPSLAT=?
+    ATC+GPSLAT=?
 
 It returns the latitude in degreees : 
 
     ATC+GPSLAT=xx.yyyy
     OK
 
-6. Read the Longitude, type : 
+7. Read the Longitude, type : 
 
 
-            ATC+GPSLON=?
+    ATC+GPSLON=?
 
 It returns the longitude in degrees : 
 
     ATC+GPSLON=xx.yyyy
     OK
 
-7. Read the Altitude, type : 
+8. Read the Altitude, type : 
 
 
-            ATC+GPSALT=?
+    ATC+GPSALT=?
 
 It returns the altitude in meter : 
 
     ATC+GPSALT=xx.yyy
     OK
 
-8. Read the Time, type : 
+9. Read the Time, type : 
 
 
-            ATC+GPSTIME=?
+    ATC+GPSTIME=?
 
 It returns the time in second in Epoch format : 
 
@@ -161,7 +163,7 @@ It returns the time in second in Epoch format :
 1. Request battery voltage level, type :
 
 
-            ATC+BAT=?
+    ATC+BAT=?
 
 It returns the battery voltage level in millivolt : 
 
