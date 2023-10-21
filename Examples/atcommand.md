@@ -64,9 +64,9 @@ It returns the result in G unit :
 
 3. Check the accelerometer value on y-axis, type :
 
-   ```
-   ATC+AY=?
-    ```
+ ```
+ ATC+AY=?
+ ```
 It returns the result in G unit : 
 
     ATC+AY=x.yy
@@ -74,9 +74,9 @@ It returns the result in G unit :
 
 4. Check the accelerometer value on z-axis, type :
 
-   ```
-   ATC+AZ=?
-    ```
+```
+ATC+AZ=?
+```
 It returns the result in G unit : 
 
     ATC+AZ=x.yy
