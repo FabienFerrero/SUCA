@@ -10,7 +10,7 @@ In these examples, the main terminal features are showcased
 Before starting Examples, the Arduino IDE and board manager should be installed as described in main Readme document :
 [Main](main/readme.md)
 
-# AT-COMMAND example
+# 1/ AT-COMMAND example
 
 * Open in Arduini IDE [Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino](/Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino)
 
