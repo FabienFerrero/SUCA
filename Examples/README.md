@@ -12,7 +12,9 @@ Before starting Examples, the Arduino IDE and board manager should be installed 
 
 # 1/ AT-COMMAND example
 
-* Open in Arduini IDE [Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino](/Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino)
+*  Dip Switch 2 has to be in ESP32-C3 mode to connect UART between ESP32-C3 and RAK3172
+
+*   Open in Arduini IDE [Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino](/Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino)
 
 * Open Serial Monitor with 115200 baud
 
