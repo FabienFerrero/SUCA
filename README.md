@@ -60,8 +60,7 @@ https://rfthings.github.io/ArduinoBoardManagerJSON/package_rfthings-esp32_index.
  as an "Additional Board Manager URL"
  
  4. Open the Boards Manager from the Tools -> Board menu and install "RFTHings ESP32 Boards"
- 5. Select your RFTHings UCA board from the Tools -> Board menu
- 6. Select Board "RF210" from the Tools -> Board menu
+ 5. Select 'RF210' from the Tools -> Board menu
  7. Select the port
 
 # Schematic
