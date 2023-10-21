@@ -27,8 +27,8 @@ It returns :
     ```
 It returns a result in Celsius degree: 
 
-   ATC+TEMP=xx.yy degree C
-   OK
+    ATC+TEMP=xx.yy degree C
+    OK
 
 4. Check Humidity, type :
 
@@ -82,6 +82,7 @@ It returns the result in G unit :
     ATC+AZ=x.yy
     OK
 
+# L76F GNSS sensor
     
 
 
