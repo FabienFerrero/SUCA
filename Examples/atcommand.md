@@ -84,8 +84,48 @@ It returns the result in G unit :
 
 # L76F GNSS sensor
 
+1. GNSS experiment need to be run with a clear view on the sky to capture signal from GPS, Galileo or Beidu Satellite
+
+2. Activate the GNSS LDO, it power-on the L76F module, tyoe :
+
+```
+ATC+GPSON=1
+```
+It returns : 
+
+    OK
+
+3. Read the GPS value, type
+
+```
+ATC+GPS
+```
+It returns : 
+
+    ATC+GPS=1
+    OK
+    
+4. Read the number of satellites in view, type : 
+
+```
+ATC+GPSSAT=?
+```
+It returns the number of satellite available : 
+
+    ATC+GPSSAT=x
+    OK
 
 # Battery Voltage
+
+1. Request battery voltage level, type :
+
+```
+ATC+BAT=?
+```
+It returns the battery voltage level in millivolt : 
+
+    ATC+BAT=xxxx
+    OK
     
 
 
