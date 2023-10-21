@@ -30,7 +30,7 @@ It returns a result in Celsius degree:
      ATC+TEMP=xx.yy degree C
      OK
 
-4. Check Humidity, type :
+3. Check Humidity, type :
 
 ```
 ATC+HUM=?
@@ -84,9 +84,10 @@ It returns the result in G unit :
 
 # L76F GNSS sensor
 
-1. GNSS experiment need to be run with a clear view on the sky to capture signal from GPS, Galileo or Beidu Satellite
+1. GNSS experiment needs to be run with a clear view on the sky to capture signal from GPS, Galileo or Beidu Satellite.
+   The GNSS module will need up to 1 minute to obtain a position.
 
-2. Activate the GNSS LDO, it power-on the L76F module, tyoe :
+3. Activate the GNSS LDO, it power-on the L76F module, type :
 
 ```
 ATC+GPSON=1
@@ -110,9 +111,49 @@ It returns :
 ```
 ATC+GPSSAT=?
 ```
-It returns the number of satellite available : 
+It returns the number of satellites available : 
 
     ATC+GPSSAT=x
+    OK
+
+5. Read the latitude, type : 
+
+```
+ATC+GPSLAT=?
+```
+It returns the latitude in degreees : 
+
+    ATC+GPSLAT=xx.yyyy
+    OK
+
+6. Read the Longitude, type : 
+
+```
+ATC+GPSLON=?
+```
+It returns the longitude in degrees : 
+
+    ATC+GPSLON=xx.yyyy
+    OK
+
+7. Read the Altitude, type : 
+
+```
+ATC+GPSALT=?
+```
+It returns the altitude in meter : 
+
+    ATC+GPSALT=xx.yyy
+    OK
+
+8. Read the Time, type : 
+
+```
+ATC+GPSTIME=?
+```
+It returns the time in second in Epoch format : 
+
+    ATC+GPSTIME=xxxxxxxxxx
     OK
 
 # Battery Voltage
