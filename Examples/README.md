@@ -8,11 +8,17 @@ Author: Fabien Ferrero, Manh Thao Nguyen, Trinh Le Huy, Xuan Minh
 In these examples, the main terminal features are showcased
 
 Before starting Examples, the Arduino IDE and board manager should be installed as described in main Readme document :
-[Main](https://github.com/FabienFerrero/SUCA/blob/main/readme.md
+[Main](main/readme.md)
 
 # AT-COMMAND example
 
-Open
+Open in Arduini IDE [/Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino](/Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino)
+
+Open Serial Monitor with 115200 baud
+
+Type AT-Command in "Message" text box.
+
+For a step by step tutorial, follow this training : [atcommand](atcommand.md)
 
 
 # License
