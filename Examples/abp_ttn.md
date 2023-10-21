@@ -18,7 +18,7 @@ In these examples, the ABP using TTN is shown
 
 3. Choose application
 
-  <img src="/main/Document/pic/app_gw.png">
+  <img src="../Document/pic/app_gw.png">
 
 5. Click on + create an application
      <img src="/main/Document/pic/application.png">        
