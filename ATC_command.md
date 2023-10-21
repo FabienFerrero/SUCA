@@ -15,20 +15,15 @@ Additional custom AT-COMMAND are provided to access to the specific feature of S
 *	ATC+VERSION? : return version of the ATC firmware
 
 ## Temperature-Humidity (SHT-C3)
-*	ATC+SHT? : return 1 if SHT-C3 sensor is available, return 0 of not
+*	ATC+SHT : Init SHT sensor, need to be activitated to measure temperature and humidity
 *	ATC+TEMP=? : return the value of temperature with 0.01° resolution, return 0 if not available
 *	ATC+HUM=? return the value of humidity with 1% resolution, return 0 if not available
 
 ## Accelerometer (KX023-1025-FR)
-*	ATC+KX023? : return 1 if KX023 sensor is available, return 0 of not
+*	ATC+KX023 : Init KX023 sensor, need to be activated to measure acceleration
 *	ATC+AX=? : return the value of X acceleration with 0.01G resolution, return 0 if not available
 *	ATC+AY=? : return the value of Y acceleration with 0.01G resolution, return 0 if not available
 *	ATC+AZ? : return the value of Z acceleration with 0.01G resolution, return 0 if not available
-## Light sensor (LTR-303ALS-01)
-*	ATC+LTR? : return 1 if sensor LTR-303ALS is available, return 0 of not
-*	ATC+LUMCH0=? : return the value of CH0, return 0 if not available
-*	ATC+LUMCH1=? : return the value of CH1, return 0 if not available
-*	ATC+LUM=? : return the luminosity value in Lumen, return 0 if not available
 ## GPS (LC76F)
 *	ATC+GPS? : return 1 if LC76F is available, return 0 of not
 *	ATC+GPSPW=? : 1:0 Turn ON GPS LDO/ Turn OFF GPS LDO, return OK
