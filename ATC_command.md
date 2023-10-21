@@ -25,8 +25,8 @@ Additional custom AT-COMMAND are provided to access to the specific feature of S
 *	ATC+AY=? : return the value of Y acceleration with 0.01G resolution, return 0 if not available
 *	ATC+AZ? : return the value of Z acceleration with 0.01G resolution, return 0 if not available
 ## GPS (LC76F)
-*	ATC+GPS? : return 1 if LC76F is available, return 0 of not
-*	ATC+GPSPW=? : 1:0 Turn ON GPS LDO/ Turn OFF GPS LDO, return OK
+*	ATC+GPSON=? : 1:0 Turn ON GPS LDO/ Turn OFF GPS LDO, return OK
+*	ATC+GPS : Update GPS results, return 1 if LC76F is available, return 0 of not
 *	ATC+GPSSAT=? : return number of satellite available
 *	ATC+GPSTIME=? : return GPS time in EPOCH format, 0 if not available
 *	ATC+GPSLAT=? : return GPS Latitude, 0 if not available
