@@ -45,7 +45,7 @@ It returns a result in percent of humidity :
 1. Activate the KX023 sensor, type :
 
 
-               ATC+KX023
+            ATC+KX023
 
 It returns : 
 
@@ -65,7 +65,7 @@ It returns the result in G unit :
 3. Check the accelerometer value on y-axis, type :
 
  
-             ATC+AY=?
+            ATC+AY=?
  
 It returns the result in G unit : 
 
@@ -85,9 +85,9 @@ It returns the result in G unit :
 # L76F GNSS sensor
 
 1. GNSS experiment needs to be run with a clear view on the sky to capture signal from GPS, Galileo or Beidu Satellite.
-   The GNSS module will need up to 1 minute to obtain a position.
+   The GNSS module will need up to 1 minute to obtain a position. If LED D1 (close to L76F) is blinking, the module get a fix. 
 
-3. Activate the GNSS LDO, it power-on the L76F module, type :
+2. Activate the GNSS LDO, it power-on the L76F module, type :
 
 
             ATC+GPSON=1
