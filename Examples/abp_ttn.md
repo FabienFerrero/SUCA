@@ -24,7 +24,7 @@ In these examples, the ABP using TTN is shown
    <img src="../Document/pic/application.png">
 
 5. Choose a name for your application and validate
-   <img src="../Document/pic/application.png">
+   <img src="../Document/pic/create_app.png">
 6. Click on + Register End device
    <img src="../Document/pic/register_ED.png">
 7. Select "manual registration
