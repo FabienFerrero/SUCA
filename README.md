@@ -59,8 +59,9 @@ https://rfthings.github.io/ArduinoBoardManagerJSON/package_rfthings-esp32_index.
  ```
  as an "Additional Board Manager URL"
  
- 4. Open the Boards Manager from the Tools -> Board menu and install "RFTHings ESP32 Boards"
- 5. Select 'RF210' from the Tools -> Board menu
+ 4. Connect your RF210 board to your USB port
+ 5. Open the Boards Manager from the Tools -> Board menu and install "RFTHings ESP32 Boards"
+ 6. Select ESP32 RFThings boards/RF210 from the Tools -> Board menu
  7. Select the port
 
 # Schematic
