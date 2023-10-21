@@ -22,19 +22,19 @@ It returns :
     
 2. Check temperature, type :
 
-   ```
-   ATC+TEMP=?
-    ```
+```
+ATC+TEMP=?
+```
 It returns a result in Celsius degree: 
 
-    ATC+TEMP=xx.yy degree C
-    OK
+     ATC+TEMP=xx.yy degree C
+     OK
 
 4. Check Humidity, type :
 
-      ```
-   ATC+HUM=?
-    ```
+```
+ATC+HUM=?
+```
 It returns a result in percent of humidity :
 
     ATC+HUM=xx%
@@ -54,9 +54,9 @@ It returns :
     
 2. Check the accelerometer value on x-axis, type :
 
-   ```
-   ATC+AX=?
-    ```
+ ```
+ ATC+AX=?
+ ```
 It returns the result in G unit : 
 
     ATC+AX=-x.yy
@@ -83,6 +83,9 @@ It returns the result in G unit :
     OK
 
 # L76F GNSS sensor
+
+
+# Battery Voltage
     
 
 
