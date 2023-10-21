@@ -10,7 +10,7 @@ In these examples, the ATC (custom AT-COMMAND) are shown
 
 # SHT temperature and humidity sensor
 
-* Activate the SHT sensor
+1. Activate the SHT sensor, type :
 
 ```
 ATC+SHT
@@ -19,7 +19,18 @@ It returns
 
     ATC+SHT=1
     OK
+    
+2. Check temperature, type :
 
+   ```
+   ATC+TEMP=?
+    ```
+
+4. Check Humidity, type :
+
+      ```
+   ATC+HUM=?
+    ```
 
 * For a step by step tutorial, follow this training : [atcommand](atcommand.md)
 
