@@ -12,13 +12,13 @@ Before starting Examples, the Arduino IDE and board manager should be installed 
 
 # AT-COMMAND example
 
-Open in Arduini IDE [/Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino](/Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino)
+* Open in Arduini IDE [Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino](/Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino)
 
-Open Serial Monitor with 115200 baud
+* Open Serial Monitor with 115200 baud
 
-Type AT-Command in "Message" text box.
+* Type AT-Command in "Message" text box.
 
-For a step by step tutorial, follow this training : [atcommand](atcommand.md)
+* For a step by step tutorial, follow this training : [atcommand](atcommand.md)
 
 
 # License
