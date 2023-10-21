@@ -15,8 +15,12 @@ In these examples, the ATC (custom AT-COMMAND) are shown
 ```
 ATC+SHT
 ```
+It returns
 
-
+---
+ATC+SHT=1
+OK
+---
 
 * For a step by step tutorial, follow this training : [atcommand](atcommand.md)
 
