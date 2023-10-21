@@ -52,16 +52,16 @@ https://sparks.gogo.co.nz/ch340.html
 
  1. [Download and install the Arduino IDE](https://www.arduino.cc/en/Main/Software) (at least version v1.6.8)
  2. Start the Arduino IDE
- 3. Go into Preferences
+ 3. Go into File/Preferences
   Add 
  ```
 https://rfthings.github.io/ArduinoBoardManagerJSON/package_rfthings-esp32_index.json
  ```
  as an "Additional Board Manager URL"
  
- 4. Open the Boards Manager from the Tools -> Board menu and install "RFTHings ESP32 Boards"
- 5. Select your RFTHings UCA board from the Tools -> Board menu
- 6. Select Board "RF210" from the Tools -> Board menu
+ 4. Connect your RF210 board to your USB port
+ 5. Open the Boards Manager from the Tools -> Board menu and install "RFTHings ESP32 Boards"
+ 6. Select ESP32 RFThings boards/RF210 from the Tools -> Board menu
  7. Select the port
 
 # Schematic
