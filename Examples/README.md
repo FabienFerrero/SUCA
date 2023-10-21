@@ -14,7 +14,9 @@ Before starting Examples, the Arduino IDE and board manager should be installed 
 
 *  Dip Switch 2 has to be in ESP32-C3 mode to connect UART between ESP32-C3 and RAK3172
 
-*   Open in Arduini IDE [Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino](/Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino)
+*  Open in Arduini IDE [Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino](/Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino)
+
+*  Click on the upload button in Arduino IDE
 
 * Open Serial Monitor with 115200 baud
 
@@ -22,6 +24,15 @@ Before starting Examples, the Arduino IDE and board manager should be installed 
 
 * For a step by step tutorial, follow this training : [atcommand](atcommand.md)
 
+# 2/ LoRaWAN Activation by Personalization example
+
+*  If you are not familiar with LoRaWAN, useful information are available on :
+
+*  Open in Arduini IDE [Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino](/Examples/RF210_RAK3172_bridge/RF210_RAK3172_bridge.ino)
+
+*  Click on upload button in Arduin IDE
+
+*  For a step by step tutorial with TTN LoRaWAN network, follow this training : [abp_ttn](abp_ttn.md)
 
 # License
 
