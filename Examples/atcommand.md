@@ -25,7 +25,7 @@ It returns :
    ```
    ATC+TEMP=?
     ```
-It returns : 
+It returns a result in Celsius degree: 
 
    ATC+TEMP=xx.yy degree C
    OK
@@ -35,10 +35,54 @@ It returns :
       ```
    ATC+HUM=?
     ```
-It returns :
+It returns a result in percent of humidity :
 
-    ATC+HUM=66%
+    ATC+HUM=xx%
     OK
+
+# KX023 Accelerometer sensor
+
+1. Activate the KX023 sensor, type :
+
+```
+ATC+KX023
+```
+It returns : 
+
+    ATC+KX023=1
+    OK
+    
+2. Check the accelerometer value on x-axis, type :
+
+   ```
+   ATC+AX=?
+    ```
+It returns the result in G unit : 
+
+    ATC+AX=-x.yy
+    OK
+
+3. Check the accelerometer value on y-axis, type :
+
+   ```
+   ATC+AY=?
+    ```
+It returns the result in G unit : 
+
+    ATC+AY=x.yy
+    OK
+
+4. Check the accelerometer value on z-axis, type :
+
+   ```
+   ATC+AZ=?
+    ```
+It returns the result in G unit : 
+
+    ATC+AZ=x.yy
+    OK
+
+    
 
 
 
