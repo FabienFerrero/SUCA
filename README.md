@@ -52,7 +52,7 @@ https://sparks.gogo.co.nz/ch340.html
 
  1. [Download and install the Arduino IDE](https://www.arduino.cc/en/Main/Software) (at least version v1.6.8)
  2. Start the Arduino IDE
- 3. Go into Preferences
+ 3. Go into File/Preferences
   Add 
  ```
 https://rfthings.github.io/ArduinoBoardManagerJSON/package_rfthings-esp32_index.json
