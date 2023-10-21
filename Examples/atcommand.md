@@ -12,9 +12,9 @@ In these examples, the ATC (custom AT-COMMAND) are shown
 
 1. Activate the SHT sensor, type :
 
-            ```
+            
             ATC+SHT
-            ```
+            
 It returns : 
 
     ATC+SHT=1
@@ -22,9 +22,9 @@ It returns :
     
 2. Check temperature, type :
 
-            ```
+            
             ATC+TEMP=?
-            ```
+            
 It returns a result in Celsius degree: 
 
      ATC+TEMP=xx.yy degree C
@@ -32,9 +32,9 @@ It returns a result in Celsius degree:
 
 3. Check Humidity, type :
 
-            ```
+            
             ATC+HUM=?
-            ```
+            
 It returns a result in percent of humidity :
 
     ATC+HUM=xx%
@@ -44,9 +44,9 @@ It returns a result in percent of humidity :
 
 1. Activate the KX023 sensor, type :
 
-```
-ATC+KX023
-```
+
+               ATC+KX023
+
 It returns : 
 
     ATC+KX023=1
@@ -54,9 +54,9 @@ It returns :
     
 2. Check the accelerometer value on x-axis, type :
 
- ```
- ATC+AX=?
- ```
+
+             ATC+AX=?
+ 
 It returns the result in G unit : 
 
     ATC+AX=-x.yy
@@ -64,9 +64,9 @@ It returns the result in G unit :
 
 3. Check the accelerometer value on y-axis, type :
 
- ```
- ATC+AY=?
- ```
+ 
+             ATC+AY=?
+ 
 It returns the result in G unit : 
 
     ATC+AY=x.yy
@@ -74,9 +74,9 @@ It returns the result in G unit :
 
 4. Check the accelerometer value on z-axis, type :
 
-```
-ATC+AZ=?
-```
+
+            ATC+AZ=?
+
 It returns the result in G unit : 
 
     ATC+AZ=x.yy
@@ -89,18 +89,18 @@ It returns the result in G unit :
 
 3. Activate the GNSS LDO, it power-on the L76F module, type :
 
-```
-ATC+GPSON=1
-```
+
+            ATC+GPSON=1
+
 It returns : 
 
     OK
 
 3. Read the GPS value, type
 
-```
-ATC+GPS
-```
+
+            ATC+GPS
+
 It returns : 
 
     ATC+GPS=1
@@ -108,9 +108,9 @@ It returns :
     
 4. Read the number of satellites in view, type : 
 
-```
-ATC+GPSSAT=?
-```
+
+            ATC+GPSSAT=?
+
 It returns the number of satellites available : 
 
     ATC+GPSSAT=x
@@ -118,9 +118,9 @@ It returns the number of satellites available :
 
 5. Read the latitude, type : 
 
-```
-ATC+GPSLAT=?
-```
+
+            ATC+GPSLAT=?
+
 It returns the latitude in degreees : 
 
     ATC+GPSLAT=xx.yyyy
@@ -128,9 +128,9 @@ It returns the latitude in degreees :
 
 6. Read the Longitude, type : 
 
-```
-ATC+GPSLON=?
-```
+
+            ATC+GPSLON=?
+
 It returns the longitude in degrees : 
 
     ATC+GPSLON=xx.yyyy
@@ -138,9 +138,9 @@ It returns the longitude in degrees :
 
 7. Read the Altitude, type : 
 
-```
-ATC+GPSALT=?
-```
+
+            ATC+GPSALT=?
+
 It returns the altitude in meter : 
 
     ATC+GPSALT=xx.yyy
@@ -148,9 +148,9 @@ It returns the altitude in meter :
 
 8. Read the Time, type : 
 
-```
-ATC+GPSTIME=?
-```
+
+            ATC+GPSTIME=?
+
 It returns the time in second in Epoch format : 
 
     ATC+GPSTIME=xxxxxxxxxx
@@ -160,9 +160,9 @@ It returns the time in second in Epoch format :
 
 1. Request battery voltage level, type :
 
-```
-ATC+BAT=?
-```
+
+            ATC+BAT=?
+
 It returns the battery voltage level in millivolt : 
 
     ATC+BAT=xxxx
