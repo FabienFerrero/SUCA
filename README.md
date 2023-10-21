@@ -14,7 +14,6 @@ The different features can be accessed using AT-COMMAND.
 - Lithium battery charger + JST-PH 2pin connector : MCP73831
 - Accelerometer sensor : KXTJ3-1057
 - Temp/Humidity sensor : SHTC3
-- Light sensor : LTR-303A
 - GNSS receiver : LC76D
 - Optimized sleep mode to 5uA
 
