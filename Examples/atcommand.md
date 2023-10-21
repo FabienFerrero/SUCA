@@ -15,7 +15,7 @@ In these examples, the ATC (custom AT-COMMAND) are shown
 ```
 ATC+SHT
 ```
-It returns
+It returns : 
 
     ATC+SHT=1
     OK
@@ -25,14 +25,22 @@ It returns
    ```
    ATC+TEMP=?
     ```
+It returns : 
+
+   ATC+TEMP=xx.yy degree C
+   OK
 
 4. Check Humidity, type :
 
       ```
    ATC+HUM=?
     ```
+It returns :
 
-* For a step by step tutorial, follow this training : [atcommand](atcommand.md)
+    ATC+HUM=66%
+    OK
+
+
 
 
 # License
