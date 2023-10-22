@@ -1,23 +1,23 @@
 # SUCA
-Space Université Côte d'Azur Board for Education
+Space Université Côte d'Azur Board pour l' Education
 
 Version 0.1, September, 2023
 
-Author: Fabien Ferrero, Manh Thao Nguyen, Trinh Le Huy, Xuan Minh
+Auteurs Fabien Ferrero, Manh Thao Nguyen, Trinh Le Huy, Xuan Minh
 
-This board was developed for education to support courses on embedded software, digital and analog electronic, telecommunication, signal processing and IoT.
-The terminal is based on a ESP32-C3 as a main MCU for user code. The ESP32-C3 is using [AT-COMMAND](#AT-COMMAND) to control a RAK3172 module.
-The RAK3172 integrate a LoRaWAN transciever and is also connected to a GNSS module and different sensors.
-The different features can be accessed using AT-COMMAND. 
+Ce module a été développé à des fins éducatives pour soutenir des cours sur les logiciels embarqués, l'électronique numérique et analogique, les télécommunications, le traitement des signaux et l'Internet des objets (IoT).
+La carte est basée sur un ESP32-C3 en tant que MCU principal pour le code utilisateur. L'ESP32-C3 utilise la COMMANDE-AT pour contrôler un module RAK3172.
+Le RAK3172 intègre un transcepteur LoRaWAN et est également connecté à un module GNSS et différents capteurs.
+Les différentes fonctionnalités peuvent être accessibles à l'aide de la COMMANDE-AT.
 
-# What's new
-- Lithium battery charger + JST-PH 2pin connector : MCP73831
-- Accelerometer sensor : KXTJ3-1057
-- Temp/Humidity sensor : SHTC3
-- GNSS receiver : LC76D
-- Optimized sleep mode to 5uA
+# Nouveautés
+- Chargeur Lithium battery + JST-PH 2pin connecteur : MCP73831
+- Accelerometeur : KXTJ3-1057
+- Temp/Humidity capteur : SHTC3
+- GNSS recepteur : LC76D
+- Mode endormi optimisé à 5uA
 
-The board is fabricated by RFThings.
+Le terminal est fabriqué par RFThings.
 
 <img src="https://github.com/FabienFerrero/SUCA/blob/main/Document/pic/bot.jpg">
 
@@ -27,20 +27,20 @@ The board is fabricated by RFThings.
 
 
 ```
- ESP32-C3(BLE)     RAK3172 (LoRa)          LC76D (GNSS)
+ ESP32-C3(BLE)     RAK3172 (LoRa)         
                    Module
- Rx1 (GPIOX) <----> Tx (GPIOX)          
- Tx1 (GPIOX) <----> Rx (GPIOX)          
- MOSI  (D11) <----> MOSI          <---->
- 3.3V        <----> Vcc
+ Rx1 (GPIO20) <----> Tx (GPIOX)          
+ Tx1 (GPIO21) <----> Rx (GPIOX)          
+  GPIO (D10) <----> LDO Enable RAK3172          
+
  
  ```
  
  <img src="https://github.com/FabienFerrero/SUCA/blob/main/Document/pic/top.jpg">
  
  
-# USB Driver
-The board is using ESP32-C3 MCU for USB. You may need to install the driver to use the board:
+# Driver USB 
+La carte utilise le microcontrôleur ESP32-C3 pour l'USB. Vous pourriez avoir besoin d'installer le pilote pour utiliser la carte :
 https://sparks.gogo.co.nz/ch340.html
 
 
@@ -48,43 +48,43 @@ https://sparks.gogo.co.nz/ch340.html
 
 
 
-# Board Programming - Board Manager
+# Programmation du terminal - Gestionnaire de carte
 
- 1. [Download and install the Arduino IDE](https://www.arduino.cc/en/Main/Software) (at least version v1.6.8)
- 2. Start the Arduino IDE
- 3. Go into File/Preferences
-  Add 
+ 1. [Telechargé et installé le logicielArduino IDE](https://www.arduino.cc/en/Main/Software) (at least version v1.6.8)
+ 2. Lancer Arduino IDE
+ 3. Aller dans Fichiers/Preferences
+  Ajouter : 
  ```
 https://rfthings.github.io/ArduinoBoardManagerJSON/package_rfthings-esp32_index.json
  ```
- as an "Additional Board Manager URL"
+ comme un "URL additionelle"
  
- 4. Connect your RF210 board to your USB port
- 5. Open the Boards Manager from the Tools -> Board menu and install "RFTHings ESP32 Boards"
- 6. Select ESP32 RFThings boards/RF210 from the Tools -> Board menu
- 7. Select the port
+ 4. Connectez votre terminal F210 à votre port USB
+ 5. Ouvrez le gestionnaire de carte depuis Outils -> Gestionnaire de carte et installez "RFTHings ESP32 Boards"
+ 6. Selectionnez ESP32 RFThings boards/RF210 depuis Outils -> Menu des cartes
+ 7. Selectionnez le port
 
-# Schematic
+# Schema
 
-The schematic of the PCB is available in the Schematic section.
+Le schema du PCB est disponible dans la section Schéma.
 [RF210-C3](https://github.com/FabienFerrero/SUCA/blob/main/Schematic/RF210-C3.pdf)
 
 
 # AT-COMMAND
 
-The LORA-WAN AT-COMMAND are based on the RUI3 platform provided by RAK : [RUI3 AT-COMMAND](https://docs.rakwireless.com/RUI3/Serial-Operating-Modes/AT-Command-Manual/#content)
+Les AT-COMMAND LORA-WAN sont basé sur la plateforme RUI3 platform fourni par RAK : [RUI3 AT-COMMAND](https://docs.rakwireless.com/RUI3/Serial-Operating-Modes/AT-Command-Manual/#content)
 
-Additional custom AT-COMMAND are provided to access to the specific feature of SUCA board. [ATC-COMMAND DOCUMENTATION](https://github.com/FabienFerrero/SUCA/blob/main/ATC_command.md)
+Des commandes AT-COMMAND personalisée sont fournis pour acceder à des fonction spécifique à la carte. [ATC-COMMAND DOCUMENTATION](https://github.com/FabienFerrero/SUCA/blob/main/ATC_command.md)
 
 
-# RAK3172 FIRMWARE UPDATE
+# RAK3172mise à jour
 
-The RAK3172 module must be updated to support the latest features.
-The process to update RAK3172 can be found on this link : [RF210 RAK3172 firmware](https://github.com/XuanMinh201/RF210/tree/main)
+Le RAK3172 peut être mise à jour pour supporter les dernières fonctionnalités.
+Pour mettre à jour le RAK3172, vous pouvez suivre ce lien  : [RF210 RAK3172 firmware](https://github.com/XuanMinh201/RF210/tree/main)
 
-# EXAMPLES
+# EXEMPLES
 
-Examples are available on : [Example Readme](https://github.com/FabienFerrero/SUCA/blob/main/Examples/README.md)
+Des Exemples sont disponibles sur : [Example Readme](https://github.com/FabienFerrero/SUCA/blob/main/Examples/README.md)
 
 # License
 
