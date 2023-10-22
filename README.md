@@ -83,7 +83,8 @@ The RAK3172 module must be updated to support the latest features.
 The process for update can be found on this link : [RF210 RAK3172 firmware](https://github.com/XuanMinh201/RF210/tree/main)
 
 # EXAMPLES
-Several examples are available on : [Example Readme](https://github.com/FabienFerrero/SUCA/blob/main/Examples/README.md))
+
+Examples are available on : [Example Readme](https://github.com/FabienFerrero/SUCA/blob/main/Examples/README.md)
 
 # License
 
