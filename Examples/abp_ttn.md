@@ -11,12 +11,11 @@ In these examples, the ABP using TTN is shown
 # The Things Network LoRaWAN network server
 
 1. Create an account on The Things Network website: https://www.thethingsnetwork.org/get-started?login
-
- 
+   Connect to Europe Cluster 
     
-2. Connect to "Console. It is available on your profile in the left-up scrolling table.
+3. Connect to "Console. It is available on your profile in the left-up scrolling table.
 
-3. Choose application
+4. Choose application
 
   <img src="../Document/pic/app_gw.png">
 

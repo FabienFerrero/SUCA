@@ -26,11 +26,11 @@ Before starting Examples, the Arduino IDE and board manager should be installed 
 
 # 2/ LoRaWAN Activation by Personalization example
 
-*  If you are not familiar with LoRaWAN, useful information are available on :
+*  If you are not familiar with LoRaWAN, useful information is available on :   [https://www.univ-smb.fr/lorawan/en/free-book/](https://www.univ-smb.fr/lorawan/en/free-book/)
 
-*  Open in Arduini IDE [Examples/RF210_ABP/RF210_ABP.ino](/Examples/RF210_ABP/RF210_ABP.ino)
+*  Open in Arduini IDE [Examples/RF210_ABP/RF210_ABP.ino](/Examples/RF210_ABP/RF210_ABP.ino)  , the code is simply providing the different AT-COMMAND to set a LoRaWan ABP transmission.
 
-*  Click on upload button in Arduino IDE
+*  Update the DevAdr, NWKkey and AppsKey credential and click on upload button in Arduino IDE
 
 *  For a step by step tutorial with TTN LoRaWAN network, follow this training : [abp_ttn](abp_ttn.md)
 
