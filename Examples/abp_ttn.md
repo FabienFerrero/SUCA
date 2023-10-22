@@ -14,7 +14,7 @@ In these examples, the ABP using TTN is shown
 
  
     
-2. Connect to "Console :
+2. Connect to "Console. It is available on your profile in the left-up scrolling table.
 
 3. Choose application
 
@@ -30,16 +30,19 @@ In these examples, the ABP using TTN is shown
 8. Click on + Register End device
    
    <img src="../Document/pic/register_ED.png">
-10. Select "manual registration
+10. Select "manual registration, and apply the different parameters shown in attached figure.
     
    <img src="../Document/pic/register.png">
-12. Click on generate for dev_adr
+12. Click on generate for dev_adr, NwkSKey and AppSKey. You can choose a custom name for "End device ID".
     
    <img src="../Document/pic/cred.png">
-14. Click on generate for dev_adr
+14. You get now your new device. you can copy the dev_adr, NwkSKey and AppSKey to your arduino code.
     
    <img src="../Document/pic/cred2.png">
 
+   <img src="../Document/pic/code.png">
+   
+15. You can upload the code to RF210. A packet should come to your TTN dashboard.
 
 
 # License
