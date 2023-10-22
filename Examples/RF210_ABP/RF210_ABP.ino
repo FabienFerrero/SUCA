@@ -4,9 +4,9 @@ HardwareSerial mySerial1(1);
 int rxPin = 20;
 int txPin = 21;
 
-String devAddr = "260B67EA";
-String nwkkey = "C2202BE803045C16AFCA0D94B5A23BB2";
-String appskey = "B725FF6D059D85DE2293685E23EFD53D";
+String devAddr = "00000000";
+String nwkkey = "000000000000000000000000000000000";
+String appskey = "000000000000000000000000000000000";
 
 
 void setup()
@@ -33,15 +33,17 @@ void setup()
   delay(1000);  
   
 
-  Serial.println("Setup at command");
+   Serial.println("Setup at command");
   mySerial1.println("AT+NJM=0"); // Set ABP
   delay(200);
   mySerial1.println("AT+NWM=1"); // Set LoRaWan mode
-  delay(200); 
+  delay(300); 
   mySerial1.println("AT+BAND=9");// Set AS923-2 frequency band
   delay(200);
-  Serial.printf("Dev ADR = %s \n", devAddr);
-  mySerial1.printf("AT+DEVADDR=%s\n",devAddr);
+  //Serial.printf("Dev ADR = %s \n", devAddr);
+  //mySerial1.printf("AT+DEVADDR=%s\n",devAddr);
+  mySerial1.printf("AT+DEVADDR=");
+  mySerial1.println(devAddr);
   delay(200);
   mySerial1.printf("AT+NWKSKEY=");
   mySerial1.println(nwkkey);
@@ -49,6 +51,12 @@ void setup()
   mySerial1.printf("AT+APPSKEY=");
   mySerial1.println(appskey);
   delay(200);
+   if (mySerial1.available())
+  { // If anything comes in Serial1 (pins 4 & 5)
+    while (mySerial1.available())
+      Serial.write(mySerial1.read()); // read it and send it out Serial (USB)
+  }
+  delay(1000);
 
 }
 
