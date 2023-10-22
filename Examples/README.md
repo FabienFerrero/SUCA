@@ -30,7 +30,7 @@ Before starting Examples, the Arduino IDE and board manager should be installed 
 
 *  Open in Arduini IDE [Examples/RF210_ABP/RF210_ABP.ino](/Examples/RF210_ABP/RF210_ABP.ino)
 
-*  Click on upload button in Arduin IDE
+*  Click on upload button in Arduino IDE
 
 *  For a step by step tutorial with TTN LoRaWAN network, follow this training : [abp_ttn](abp_ttn.md)
 
