@@ -29,12 +29,12 @@ The board is fabricated by RFThings.
 
 
 ```
- ESP32-C3(BLE)     RAK3172 (LoRa)          LC76D (GNSS)
+ ESP32-C3(BLE)     RAK3172 (LoRa)         
                    Module
- Rx1 (GPIOX) <----> Tx (GPIOX)          
- Tx1 (GPIOX) <----> Rx (GPIOX)          
- MOSI  (D11) <----> MOSI          <---->
- 3.3V        <----> Vcc
+ Rx1 (GPIO20) <----> Tx (GPIOX)          
+ Tx1 (GPIO21) <----> Rx (GPIOX)          
+  GPIO (D10) <----> LDO Enable RAK3172          
+
  
  ```
  
