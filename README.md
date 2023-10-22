@@ -5,7 +5,7 @@ Version 0.1, September, 2023
 
 Author: Fabien Ferrero, Manh Thao Nguyen, Trinh Le Huy, Xuan Minh
 
-* Une document en Français est dipobible sur ce lien : [LISEZMOI](LISEZMOI.md)
+# Un document en Français est dipobible sur ce lien : [LISEZMOI](LISEZMOI.md)
 
 This board was developed for education to support courses on embedded software, digital and analog electronic, telecommunication, signal processing and IoT.
 The terminal is based on a ESP32-C3 as a main MCU for user code. The ESP32-C3 is using [AT-COMMAND](#AT-COMMAND) to control a RAK3172 module.
