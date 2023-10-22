@@ -80,7 +80,7 @@ Additional custom AT-COMMAND are provided to access to the specific feature of S
 # RAK3172 FIRMWARE UPDATE
 
 The RAK3172 module must be updated to support the latest features.
-The process for update can be found on this link : [RF210 RAK3172 firmware](https://github.com/XuanMinh201/RF210/tree/main)
+The process to update RAK3172 can be found on this link : [RF210 RAK3172 firmware](https://github.com/XuanMinh201/RF210/tree/main)
 
 # EXAMPLES
 
