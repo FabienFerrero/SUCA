@@ -28,7 +28,7 @@ Before starting Examples, the Arduino IDE and board manager should be installed 
 
 *  If you are not familiar with LoRaWAN, useful information are available on :
 
-*  Open in Arduini IDE [Examples/RF210_RAK3172_bridge/RF210_ABP.ino](/Examples/RF210_RAK3172_bridge/RF210_ABP.ino)
+*  Open in Arduini IDE [Examples/RF210_ABP/RF210_ABP.ino](/Examples/RF210_ABP/RF210_ABP.ino)
 
 *  Click on upload button in Arduin IDE
 
