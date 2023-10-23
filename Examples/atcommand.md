@@ -11,10 +11,9 @@ In these examples, the ATC (custom AT-COMMAND) are shown
 # SHT temperature and humidity sensor
 
 1. Activate the SHT sensor, type :
-
-            
-    ATC+SHT
-            
+---        
+ATC+SHT
+---            
 It returns : 
 
     ATC+SHT=1
