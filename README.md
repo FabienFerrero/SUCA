@@ -69,7 +69,7 @@ https://rfthings.github.io/ArduinoBoardManagerJSON/package_rfthings-esp32_index.
 # Schematic
 
 The schematic of the PCB is available in the Schematic section.
-[RF210-C3](https://github.com/FabienFerrero/SUCA/blob/main/Schematic/RF210-C3.pdf)
+[RF210-C3](https://github.com/FabienFerrero/SUCA/blob/main/Schematic/RF210C-SCAPA.pdf)
 
 
 # AT-COMMAND
